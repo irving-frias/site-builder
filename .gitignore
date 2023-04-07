@@ -1,0 +1,41 @@
+# Ignore core and contributed modules
+/docroot/core/
+/docroot/modules/contrib/
+
+# Ignore vendor directory
+/docroot/vendor/
+/vendor/
+
+# Ignore files directory
+/docroot/sites/*/files/
+
+# Ignore configuration files
+/docroot/sites/*/settings.php
+/docroot/sites/*/settings.local.php
+/docroot/sites/*/services.yml
+/docroot/sites/*/development.services.yml
+
+# Ignore composer.lock file
+composer.lock
+
+# Ignore local development files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.swp
+*.swo
+
+# Ignore compiled assets
+/node_modules/
+/docroot/themes/*/dist/
+local.settings.php
+local.drush.yml
+local.site.yml
+local.services.yml
+*.local
+local.blt.yml
+deployment_identifier
+/travis_wait*
+/files-private
+.phpcs-cache

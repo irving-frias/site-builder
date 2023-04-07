@@ -1,0 +1,9 @@
+project:
+  machine_name: site-builder
+  prefix: SB
+  human_name: 'Site Builder'
+  profile:
+    name: minimal
+deploy:
+  # When manually deploying a tag, also tag the source repository.
+  tag_source: true
