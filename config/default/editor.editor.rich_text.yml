@@ -1,0 +1,54 @@
+uuid: fd53d80f-10e1-447e-a41c-8d0d22242f5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+  module:
+    - ckeditor5
+format: rich_text
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - bulletedList
+      - numberedList
+      - removeFormat
+      - alignment
+      - '|'
+      - codeBlock
+      - link
+      - insertTable
+      - drupalMedia
+      - '|'
+      - sourceEditing
+  plugins:
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_list:
+      reversed: true
+      startIndex: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    editor_advanced_link_link:
+      enabled_attributes:
+        - aria-label
+        - target
+        - title
+    media_media:
+      allow_view_mode_override: false
+image_upload: {  }
